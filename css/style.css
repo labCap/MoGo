@@ -583,17 +583,17 @@ hr {
     margin: 0 0 20px 0;
 }
 
-.accordion__item.active .accordion__header {
+.accordion__header.active {
     border-bottom: 1px solid #e5e5e5;
 
 }
 
-.accordion__item.active .accordion__header::after {
+.accordion__header.active::after {
     margin-top: 5px;
     transform: translateY(-50%) rotate(-45deg);
 }
 
-.accordion__item.active .accordion__content {
+.accordion__header.active {
     display: block;
 }
 
